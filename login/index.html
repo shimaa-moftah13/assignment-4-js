@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Kalam:wght@400;700&family=Lemon&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="form-content">
+        <div class="container">
+              <h1>Smart Login System</h1>
+        
+
+           <div class="input-box">
+             <label for="loginInputEmail" class="py-1"><i class=""></i>Email</label>
+           <input class="form-control bg-transparent" id="loginInputEmail" type="email">
+          
+           </div>
+
+           <div class="input-box">
+            <label for="loginInputPassword" class="py-1"><i class=""></i>Password</label>
+           <input class="form-control bg-transparent align-items-center" id="loginInputPassword" type="password">
+           
+           </div>
+
+           <div id="warningName" class="form-text text-center"></div>
+          <div class="form-btn">
+             <button onclick="checkUser()" id="login" class="btn my-3">Sign In</button>
+
+          </div>
+           <div class="form-cap">
+            <p>You have an account?</p>
+           <a href="../sign up/index.html">Sign Up</a>
+           </div>
+           
+        </div>
+      
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+</body>

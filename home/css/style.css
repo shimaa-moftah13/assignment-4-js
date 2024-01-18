@@ -1,0 +1,45 @@
+
+body{
+    font-family: 'Itim', cursive;
+/* font-family: 'Kalam', cursive; */
+/* font-family: 'Lemon', serif; */
+/* font-family: 'Salsa', cursive; */
+
+}
+.home{
+     background-image: url(../images/pexels-alleksana-7430733.jpg);
+   background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    background-color:#4e701b97;
+    box-shadow: #4e701bdb -5px 2px 54px -9px;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.wecome-contain{
+   width: 530px;
+   height: 300px;
+   margin-top: 200px;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   background-color:#e5e1dea2;
+   border: 2px solid #081411;
+   border-radius: 20px;
+   backdrop-filter: blur(20px);
+}
+
+ .wecome-contain p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform:   translateY(-50%) ;
+    font-size: 40px;
+
+}

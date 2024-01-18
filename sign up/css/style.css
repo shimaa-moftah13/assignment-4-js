@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Itim', cursive;
+
+
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../images/pexels-jéshoots-7424.jpg);
+   background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+   width: 600px;
+   height: 500px;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   /* background-color: rgba(0, 0, 0, 0.256); */
+   /* background-color: transparent; */
+   background-color: #4a44444a;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   border-radius: 20px;
+   backdrop-filter: blur(5px);
+
+}
+.container h1{
+    font-size: 40px;
+    color: #54E1BF;
+    text-align: center;
+    margin-top: 23px;
+}
+.input-box{
+    position: relative;
+    margin: auto;
+    width: 530px;
+    border-bottom: 2px;
+    
+}
+.input-box label{
+    font-size: 20px;
+    color: beige;
+    pointer-events: none;
+    transition: 0.5s ;
+    
+}
+.input-box input{
+    border: 1px solid #cccccc92 ;
+}
+.form-btn{
+    position: relative;
+    align-items: center;
+    width: 530px;
+    margin: auto;
+    margin-top: 35px;
+}
+.form-btn button{
+   width: 100%;
+   border: 2px solid #54E1BF;
+     background-color: #54E1BF;
+   color: aliceblue;
+   font-size: 20px;  
+}
+.form-btn button:hover{
+  
+    border: 2px solid #54E1BF;
+    color: #f7f7f7f6;
+}
+.form-cap{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #f7f7f7f6;
+}
+.form-cap p{
+    text-align: center;
+}
+.form-cap a{
+    text-decoration: none;
+    color: #54E1BF;
+    margin-left: 7px ;
+}
+#warningName{
+    color: black;
+}
